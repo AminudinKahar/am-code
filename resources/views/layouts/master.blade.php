@@ -11,7 +11,7 @@
     
 </head>
 <body class="text-center">
-    <img src="img/human-work.png">
+    
     <div class="cover-container d-flex h-100 p-3 mx-auto flex-column">
         <header class="masthead mb-auto">
           <div class="inner">
