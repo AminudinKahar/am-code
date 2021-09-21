@@ -22,6 +22,34 @@ a {
     color: #29b1ae;
 } 
 
+.bg-trans {
+  background-color: transparent;
+}
+
+.navbar-light .navbar-nav .active>.nav-link {
+  color: antiquewhite;
+  font-weight: bolder;
+}
+
+.navbar-light .navbar-nav .nav-link {
+  color: antiquewhite;
+}
+
+.navbar-light .navbar-nav .nav-link:focus, .navbar-light .navbar-nav .nav-link:hover {
+  color: aquamarine;
+}
+
+.navbar-expand-lg .navbar-nav .nav-link {
+  padding-right: 0.5rem;
+  padding-left: 2.5rem;
+}
+
+.navbar-light .navbar-toggler {
+  color: antiquewhite;
+  border-color: white;
+  background-color: antiquewhite;
+}
+
 .title-slideup {
     overflow: hidden;
     height: auto;
