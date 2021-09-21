@@ -12,6 +12,9 @@
     <!-- Bootstrap CSS -->
     <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/4.0.0/css/bootstrap.min.css">
 
+    <!-- Fontawesome -->
+    <link href="css/all.css" rel="stylesheet">
+
     <!-- Template Main CSS File -->
     <link href="css/style.css" rel="stylesheet">
 
@@ -58,8 +61,14 @@
         
         <footer class="mastfoot mt-auto">
             <div class="inner par-slideup">
-                <p>This is a Simple Portfolio Dashboard using <a href="https://getbootstrap.com/">Bootstrap</a> and <a href="https://laravel.com/">Laravel 8</a>, by Amin Kahar.</p>
+              <a href="#"><i class="fab fa-facebook fa-lg"></i></a>
+              <a href="#"><i class="fab fa-instagram fa-lg"></i></a>
+              <a href="#"><i class="fab fa-linkedin fa-lg"></i></a>
+              <a href="#"><i class="fab fa-github fa-lg"></i></a>
+              <p>This is a Simple Portfolio Dashboard using <a href="https://getbootstrap.com/">Bootstrap</a> and <a href="https://laravel.com/">Laravel 8</a>, by Amin Kahar.</p>
             </div>
+            
+            
         </footer>
     </div>
     <!-- Optional JavaScript -->
