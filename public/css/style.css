@@ -19,8 +19,19 @@ p{
   }
 
 a {
-    color: #29b1ae;
+    color: #29b1ae;  
 } 
+
+i {
+  padding: 0.5rem;
+  transform: translateY(300px);
+  animation: slideUp .8s ease-in-out forwards .8s;
+}
+
+i:hover, a:hover {
+  color: 	#face81;
+}
+
 
 .bg-trans {
   background-color: transparent;
