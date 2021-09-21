@@ -21,12 +21,12 @@
 </head>
 <body class="text-center">
     
-    <div class="cover-container d-flex h-100 p-3 mx-auto flex-column bg-dark">
+    <div class="cover-container d-flex h-100 p-3 mx-auto flex-column">
         <header class="masthead mb-auto">
           <div class="inner">
             <nav class="navbar navbar-expand-lg navbar-light bg-trans">
               <a class="navbar-brand">
-                <img src="img/am_logo.png" width="70" height="30" class="d-inline-block align-top" alt="">
+                <img src="img/am_logo.png" width="70" height="30" class="d-inline-block align-top" alt="" onclick="darkMode()">
               </a>
               <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarNav" aria-controls="navbarNav" aria-expanded="false" aria-label="Toggle navigation">
                 <span class="navbar-toggler-icon"></span>
@@ -73,6 +73,12 @@
     </div>
     <!-- Optional JavaScript -->
     <!-- jQuery first, then Popper.js, then Bootstrap JS -->
+    <script>
+      function darkMode() {
+         var element = document.body;
+         element.classList.toggle("dark-mode");
+      }
+    </script>
     <script src="https://code.jquery.com/jquery-3.2.1.slim.min.js"></script>
     <script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.12.9/umd/popper.min.js"></script>
     <script src="https://maxcdn.bootstrapcdn.com/bootstrap/4.0.0/js/bootstrap.min.js"></script>
