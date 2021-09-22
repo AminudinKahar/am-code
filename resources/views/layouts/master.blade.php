@@ -19,7 +19,7 @@
     <link href="css/style.css" rel="stylesheet">
     
 </head>
-<body class="text-center">
+<body >
     
     <div class="cover-container d-flex h-100 p-3 mx-auto flex-column">
         <header class="masthead mb-auto">
@@ -56,10 +56,12 @@
             </nav> --}}
           </div>
         </header>
-
-        @yield('content')
+        <div class="container">
+          @yield('content')
+        </div>
         
-        <footer class="mastfoot mt-auto">
+        
+        <footer class="mastfoot mt-auto text-center">
             <div class="inner par-slideup">
               <a href="#"><i class="fab fa-facebook fa-lg"></i></a>
               <a href="#"><i class="fab fa-instagram fa-lg"></i></a>

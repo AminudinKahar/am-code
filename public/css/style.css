@@ -9,7 +9,17 @@ body {
   color: #8cab9a;
 }
 
+.slant {
+  transform: rotate(10deg) scale(0.8);
+  border: 15px solid #e6e6e6;
+  z-index: 1;
+  padding :0%;
+  box-shadow: 0 2px 4px 0 rgba(0, 0, 0, 0.2), 0 6px 20px 0 rgba(0, 0, 0, 0.19);
+  background: linear-gradient(145deg, #ffffff, #e6e6e6);
+}
+
 .card {
+ 
   background-color: transparent;
   box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2), 0 6px 20px 0 rgba(0, 0, 0, 0.19);
 }
@@ -27,6 +37,11 @@ h3 {
 p{
     transform: translateY(300px);
     animation: slideUp .8s ease-in-out forwards .8s;
+  }
+
+.img-slideup .img-slide-up{
+    transform: translateY(500px);
+    animation: slideUp 1.0s ease-in-out forwards 1.0s;
   }
 
 a {
@@ -86,6 +101,12 @@ i:hover, a:hover {
     height: auto;
     overflow: hidden;
   }
+
+.img-slideup {
+    height: auto;
+    overflow: hidden;
+  }
+
 
 .logo {
     width: 100px;
