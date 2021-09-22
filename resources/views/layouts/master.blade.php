@@ -17,7 +17,7 @@
 
     <!-- Template Main CSS File -->
     <link href="css/style.css" rel="stylesheet">
-
+    
 </head>
 <body class="text-center">
     
@@ -32,15 +32,15 @@
                 <span class="navbar-toggler-icon"></span>
               </button>
               <div class="collapse navbar-collapse" id="navbarNav">
-                <ul class="navbar-nav ml-auto">
-                  <li class="nav-item active">
-                    <a class="nav-link" href="/">Home</a>
+                <ul class="navbar-nav ml-auto menu">
+                  <li class="nav-item">
+                    <a class="nav-link"  href="/">Home</a>
                   </li>
                   <li class="nav-item">
-                    <a class="nav-link" href="/info">Info</a>
+                    <a class="nav-link"  href="/info">Info</a>
                   </li>
                   <li class="nav-item">
-                    <a class="nav-link" href="/work">Work</a>
+                    <a class="nav-link"  href="/work">Work</a>
                   </li>
                   <li class="nav-item">
                     <a class="nav-link" href="/contact">Contact</a>
@@ -72,15 +72,36 @@
         </footer>
     </div>
     <!-- Optional JavaScript -->
-    <!-- jQuery first, then Popper.js, then Bootstrap JS -->
-    <script>
-      function darkMode() {
-         var element = document.body;
-         element.classList.toggle("dark-mode");
-      }
-    </script>
+    <!-- jQuery first, then Popper.js, then Bootstrap JS --> 
     <script src="https://code.jquery.com/jquery-3.2.1.slim.min.js"></script>
     <script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.12.9/umd/popper.min.js"></script>
     <script src="https://maxcdn.bootstrapcdn.com/bootstrap/4.0.0/js/bootstrap.min.js"></script>
-</body>
+    <script type="text/javascript" src="js/app.js"></script>
+    <script>
+     $(document).ready(function() {
+
+        // Get current page URL
+        var url = window.location.pathname;
+
+        // Loop all menu items
+        $('.menu li').each(function(){
+
+          // select href
+          var href = $(this).find('a').attr('href');
+
+          // Check filename
+          if(url == href){
+
+            // Add active class
+            $(this).addClass('active');
+          }
+        });
+      });
+
+      function darkMode() {
+      var element = document.body;
+      element.classList.toggle("dark-mode");
+      }
+    </script>
+  </body>
 </html>

@@ -2,7 +2,7 @@
 @section('title','Contact')
 @section('content')
 
-    <main role="main" class="inner cover">
+    <main role="main" class="inner cover" >
         <div class="title-slideup">
             <h1 class="cover-heading">This is Contact Page.</h1>
         </div>
