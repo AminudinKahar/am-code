@@ -9,6 +9,11 @@ body {
   color: #8cab9a;
 }
 
+.card {
+  background-color: transparent;
+  box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2), 0 6px 20px 0 rgba(0, 0, 0, 0.19);
+}
+
 h1 {
     color: 	#face81;  
     transform: translateY(100px);
@@ -81,11 +86,6 @@ i:hover, a:hover {
     height: auto;
     overflow: hidden;
   }
-
-.card {
-    background-color: #2b495a;
-    box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2), 0 6px 20px 0 rgba(0, 0, 0, 0.19);
-}
 
 .logo {
     width: 100px;
