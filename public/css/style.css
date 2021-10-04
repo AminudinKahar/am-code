@@ -25,7 +25,7 @@ body {
 
 h1 {
     color: 	#face81;  
-    transform: translateY(100px);
+    transform: translateY(300px);
     animation: slideUp .8s ease forwards .5s;
 }
 
@@ -34,13 +34,14 @@ h3 {
 }
 
 p{
+    overflow: hidden;
     transform: translateY(300px);
     animation: slideUp .8s ease-in-out forwards .8s;
   }
 
 .img-slideup .img-slide-up{
-    transform: translateY(500px);
-    animation: slideUp 1.0s ease-in-out forwards 1.0s;
+    transform: translateY(600px);
+    animation: ImageSlideUp 1.0s ease-in-out forwards 1.0s;
   }
 
 a {
@@ -136,3 +137,14 @@ i:hover, a:hover {
       transform: translateY(0px);
     }
   }
+
+  @keyframes ImageSlideUp {
+    0% {
+      transform: translateY(600px);
+    }
+    100% {
+      transform: translateY(0px);
+    }
+  }
+
+  .fadeIn{animation:opac 0.8s}@keyframes opac{from{opacity:0} to{opacity:1}}
